@@ -70,7 +70,7 @@ The label mapping must match the class encoding used during model training.
 
 **Shreyas Singh**
 
-GitHub: [Your GitHub Profile](https://github.com/shreyas-650)
+GitHub: [Shreyas Singh](https://github.com/shreyas-650)
 
 ---
 
