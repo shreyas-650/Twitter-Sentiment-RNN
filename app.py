@@ -12,6 +12,11 @@ model = load_model('model.h5')
 with open('tokenizer.pkl','rb') as file:
     tok = pickle.load(file)
 
+st.set_page_config(
+    page_title="Tweet Sentiment Analysis",
+    page_icon="🐦",
+    layout="centered"
+)
 st.title('Tweet Sentiment Analysis')
 text = st.text_area('Enter The Tweet: ')
 if st.button('Predict Sentiment') and text.strip():
